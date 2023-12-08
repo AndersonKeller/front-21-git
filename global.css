@@ -10,3 +10,23 @@
 
   --color-white: #f5eded;
 }
+body {
+  background-color: var(--color-secondary);
+  height: 100vh;
+}
+button {
+  cursor: pointer;
+  padding: 6px 32px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  background-color: var(--color-tertiary);
+  border: none;
+  color: var(--color-white);
+}
+ul,
+li {
+  list-style: none;
+}

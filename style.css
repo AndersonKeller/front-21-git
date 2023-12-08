@@ -1,10 +1,7 @@
-
 body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-secondary);
-  height: 100vh;
 }
 form {
   display: flex;
@@ -23,18 +20,7 @@ form h1,
 form label {
   color: var(--color-white);
 }
-button {
-  cursor: pointer;
-  padding: 6px 32px;
-  border-radius: 16px;
-  -webkit-border-radius: 16px;
-  -moz-border-radius: 16px;
-  -ms-border-radius: 16px;
-  -o-border-radius: 16px;
-  background-color: var(--color-tertiary);
-  border: none;
-  color: var(--color-white);
-}
+
 input {
   outline: none;
   height: 45px;

@@ -1,7 +1,7 @@
-const myHeaders = {
+export const myHeaders = {
   "Content-type": "application/json",
 };
-const baseUrl = "http://localhost:3001";
+export const baseUrl = "http://localhost:3001";
 export async function login(email, pass) {
   const body = {
     email: email,
