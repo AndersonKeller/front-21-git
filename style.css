@@ -1,15 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-:root {
-  --color-primary: #191717;
-  --color-secondary: #242323;
-  --color-tertiary: #1d1212;
 
-  --color-white: #f5eded;
-}
 body {
   display: flex;
   align-items: center;
